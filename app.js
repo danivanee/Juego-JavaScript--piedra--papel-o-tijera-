@@ -22,4 +22,5 @@ function generateComputerChoice() {
    if (randomNumber ===3) {
     computerChoice = 'paper'
    }
+   computerChoiceDisplay.innerHTML = computerChoice
 }
