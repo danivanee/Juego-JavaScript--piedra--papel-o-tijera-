@@ -6,4 +6,9 @@ const possibleChoices = document.querySelectorAll('button')
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
     userChoiceDisplay.innerHTML = userChoice
+    generateComputerChoice() 
 }))
+
+function generateComputerChoice() {
+
+}
