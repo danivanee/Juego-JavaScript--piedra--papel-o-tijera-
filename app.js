@@ -11,5 +11,6 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3)
+    console.log(randomNumber)
 
 }
