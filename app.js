@@ -35,4 +35,6 @@ function getResult() {
     if (computerChoice === 'rock' && userChoice === "paper") {
         result = 'you lost!'
     }
+computerChoiceDisplay.innerHTML = computerChoice
 }
+
