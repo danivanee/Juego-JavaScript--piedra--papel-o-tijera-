@@ -32,4 +32,8 @@ function getResult() {
     if (computerChoice === userChoice) {
         result = 'its a draw!'
     }
+    if (computerChoice === 'rock' && userChoice === "paper") {
+        result = 'you lost!'
+    }
+}
 }
