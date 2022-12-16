@@ -30,6 +30,6 @@ function generateComputerChoice() {
 
 function getResult() {
     if (computerChoice === userChoice) {
-        result 
+        result = 'its a draw!'
     }
 }
