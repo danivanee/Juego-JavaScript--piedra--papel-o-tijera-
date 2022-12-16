@@ -36,4 +36,3 @@ function getResult() {
         result = 'you lost!'
     }
 }
-}
