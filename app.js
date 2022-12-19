@@ -36,8 +36,12 @@ function getResult() {
         result = 'you win!'
     }
     if (computerChoice === 'rock' && userChoice === "scissors") {
-        result = 'you lost!'
+        result = 'you lose!'
     }
+    if (computerChoice === 'paper' && userChoice === "scissors") {
+        result = 'you win!'
+    }
+   
 computerChoiceDisplay.innerHTML = computerChoice
 }
 
